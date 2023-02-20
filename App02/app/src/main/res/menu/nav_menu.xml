@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home_icon"
+        android:title="home" />
+    <item
+        android:id="@+id/menu_home2"
+        android:icon="@drawable/settings_icon"
+        android:title="home 2" />
+    <item
+        android:id="@+id/menu_login"
+        android:icon="@drawable/login_icon"
+        android:title="login" />
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/settings_icon"
+        android:title="settings" />
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/share_icon"
+        android:title="share" />
+    <item
+        android:id="@+id/menu_rate"
+        android:icon="@drawable/star_icon"
+        android:title="rate" />
+</menu>
