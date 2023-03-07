@@ -18,7 +18,8 @@ public class TVFragment extends Fragment {
                              Bundle savedInstanceState) {
         fragmentTVBinding = FragmentTVBinding.inflate(inflater);
         View view = fragmentTVBinding.getRoot();
-
+        Data data = new Data("TextView Fragment", 0xff00ffff, 50);
+        fragmentTVBinding.setData(data);
 
         return view;
 

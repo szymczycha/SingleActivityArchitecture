@@ -17,6 +17,8 @@ public class ButtonFragment extends Fragment {
                              Bundle savedInstanceState) {
         fragmentButtonBinding = FragmentButtonBinding.inflate(inflater);
         View view = fragmentButtonBinding.getRoot();
+        Data data = new Data("Button fragment", 0xffff0000, 50);
+        fragmentButtonBinding.setData(data);
         return view;
 //        return inflater.inflate(R.layout.fragment_button, container, false);
     }
