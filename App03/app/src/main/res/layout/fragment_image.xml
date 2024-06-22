@@ -45,15 +45,15 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:text="butterfly"
+                    android:text="kekeret"
                     android:layout_height="wrap_content"
-                    android:onClick="@{()->data.setImageUrl(`https://cdn.discordapp.com/attachments/715515134419796039/1081981830498103347/bigButterfly.png`)}"/>
+                    android:onClick="@{()->data.setImageUrl(`https://static.wikia.nocookie.net/silly-cat/images/4/4f/Wire_Cat.png/revision/latest/thumbnail/width/360/height/360?cb=20231001190626`)}"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:text="boy and girl"
+                    android:text="guh cat"
                     android:layout_height="wrap_content"
-                    android:onClick="@{()->data.setImageUrl(`https://cdn.discordapp.com/attachments/715515134419796039/1081981830129008773/girlAndBoy.png`)}"/>
+                    android:onClick="@{()->data.setImageUrl(`https://tr.rbxcdn.com/4caf56312d6722d708493b0a341602a0/420/420/Hat/Png`)}"/>
             </LinearLayout>
         </LinearLayout>
 

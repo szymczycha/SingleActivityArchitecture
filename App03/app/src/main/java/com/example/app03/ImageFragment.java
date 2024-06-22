@@ -17,7 +17,7 @@ public class ImageFragment extends Fragment {
                              Bundle savedInstanceState) {
         fragmentImageBinding = FragmentImageBinding.inflate(inflater);
         View view = fragmentImageBinding.getRoot();
-        Data data = new Data("Image fragment", 0xff003e42, 50, "https://cdn.discordapp.com/attachments/715515134419796039/1081981830498103347/bigButterfly.png");
+        Data data = new Data("Image fragment", 0xff003e42, 50, "https://tr.rbxcdn.com/4caf56312d6722d708493b0a341602a0/420/420/Hat/Png");
         fragmentImageBinding.setData(data);
         return view;
 //        return inflater.inflate(R.layout.fragment_image, container, false);

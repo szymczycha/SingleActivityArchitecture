@@ -4,9 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.app03.databinding.ActivityMainBinding;
+import com.google.android.material.navigation.NavigationBarView;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding activityMainBinding;
@@ -18,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(view);
         replaceFragment(new TVFragment());
         activityMainBinding.bottomMenu.setOnItemSelectedListener(v -> {
+            Log.d("xxx", String.valueOf(activityMainBinding.bottomMenu.getLabelVisibilityMode()) );
             switch (v.getItemId()) {
-
                 case R.id.menuTextView:
                     replaceFragment(new TVFragment());
                     break;
@@ -30,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     replaceFragment(new ImageFragment());
                     break;
             }
-            return false;
+            return true;
         });
 
 //        setContentView(R.layout.activity_main);
