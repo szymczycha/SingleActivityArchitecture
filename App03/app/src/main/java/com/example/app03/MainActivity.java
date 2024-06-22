@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
                     replaceFragment(new ImageFragment());
                     break;
             }
+
+
             return true;
         });
 
